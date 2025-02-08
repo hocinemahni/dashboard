@@ -1,0 +1,228 @@
+{
+    "cubes": [
+        {
+             
+            "aggregates": [
+                {
+                    "function": "count", 
+                    "label": "Nombre_demande", 
+                    "measure": "nbr_demande", 
+                    "name": "nbr_demande"
+                }, 
+                {
+                    "function": "sum", 
+                    "label": "Gains_total", 
+                    "measure": "gains", 
+                    "name": "gains"
+                }
+            ], 
+            "details": [], 
+            "dimensions": [
+                "dim_type_client",
+                "dim_temps", 
+                "dim_departement", 
+                "dim_projet"
+            ],
+			"joins": [
+                {
+                    "alias": "dim_temps", 
+                    "detail": "dim_temps.id_temps", 
+                    "master": "fact_table_service_info.id_temps"
+                }, 
+				{
+                    "alias": "dim_type_client", 
+                    "detail": "dim_type_client.id_type_client", 
+                    "master": "fact_table_service_info.id_type_client"
+                },
+                
+                {
+                    "alias": "dim_departement", 
+                    "detail": "dim_departement.id_departement", 
+                    "master": "fact_table_service_info.id_departement"
+                }, 
+                {
+                    "alias": "dim_projet", 
+                    "detail": "dim_projet.id_projet", 
+                    "master": "fact_table_service_info.id_projet"
+                }
+            ],  
+            "label": "table_service", 
+            "mappings": {
+			    "dim_type_client.id_client": "dim_type_client.id_type_client", 
+                "dim_type_client.type_client": "dim_type_client.type_client", 
+       
+               
+              
+              
+                "dim_clients.I_age_ans_": "dim_clients.I_age_ans_", 
+                "dim_departement.id_departement": "dim_departement.id_departement", 
+                "dim_departement.Nom": "dim_departement.Nom", 
+                "dim_temps.id_temps": "dim_temps.id_temps", 
+                "dim_temps.jours": "dim_temps.jours", 
+                "dim_temps.mois": "dim_temps.mois", 
+                "dim_temps.annees": "dim_temps.annees", 
+                "dim_projet.id_projet": "dim_projet.id_projet", 
+                "dim_projet.Nom_projet": "dim_projet.Non_projet"
+            }, 
+			  "measures": [
+                {
+                    "label": "Nbr_demande", 
+                    "name": "nbr_demande"
+                }, 
+                {
+                    "label": "Gains", 
+                    "name": "gains"
+                }
+            ], 
+            "name": "fact_table_service_info"
+        }
+			
+],
+
+    "dimensions": [
+        {
+             
+            "hierarchies": [
+                
+				 {
+                    "label": "temps_dimension", 
+                    "levels": [
+                         "annees",
+						 "mois",
+						 "jours"
+                    ], 
+                    "name": "dtemps"
+                }
+            ],
+			"info": {
+                "cv-datefilter": true, 
+                "cv-datefilter-hierarchy": "dtemps"
+            }, 
+			
+            "label": "date", 
+            "levels": [
+                
+				
+			{
+                    "attributes": [
+                        "annees"
+                    ], 
+                    "key": "annees", 
+                    "label": "Annees", 
+                    "label_attribute": "annees", 
+                    "name": "annees", 
+                    "role": "annees",
+					"info": { "cv-datefilter-field": "annees" }
+					
+                },
+				{
+                    "attributes": [
+                        "mois"
+                    ], 
+                    "key": "mois", 
+                    "label": "Mois", 
+                    "label_attribute": "mois", 
+                    "name": "mois", 
+                    "role": "mois",
+					"info": { "cv-datefilter-field": "mois" }
+                },
+				{
+                    "attributes": [
+                        "jours"
+                    ], 
+                    "key": "jours", 
+                    "label": "Jours", 
+                    "label_attribute": "jours", 
+                    "name": "jours", 
+                    "role": "jours",
+					"info": { "cv-datefilter-field": "jours" }
+					
+                }
+             ],
+				"name": "dim_temps", 
+                "role": "time"
+			
+			
+			},
+			
+			{ 
+            "label": "Dim_departement", 
+            "levels": [
+                {
+                    "attributes": [
+                        "id_departement", 
+                        "Nom"
+                    ], 
+                    "key": "id_departement", 
+                    "label": "Dim_departement", 
+                    "label_attribute": "Nom", 
+                    "name": "dim_departement"
+                }
+            ], 
+            "name": "dim_departement"
+			
+			
+		},
+		{
+		 "label": "Dim_projet", 
+            "levels": [
+                {
+                    "attributes": [
+                        "id_projet", 
+                        "Non_projet"
+                    ], 
+                    "key": "id_projet", 
+                    "label": "Dim_projet", 
+                    "label_attribute": "Non_projet", 
+                    "name": "dim_projet"
+                }
+            ], 
+            "name": "dim_projet"
+		
+		
+		},
+		
+		
+		{
+		
+		"hierarchies": [
+                {
+                    "label": "client_dimension", 
+                    "levels": [
+                        "Nom", 
+                        "Prenom", 
+                        "profession", 
+                        "degre_d_importance",
+						"type_interne_externe",
+						"I_age_ans_"
+                    ], 
+                    "name": "dclient"
+                }
+            ],
+			"label": "Type_Client", 
+            "levels": [
+                {
+                    "attributes": [
+                        "type_client"
+                    ], 
+                    "key": "type_client", 
+                    "label": "Type_Client", 
+                    "label_attribute": "type_client", 
+                    "name": "type_client", 
+                    "role": "type_client"
+                }, 
+                
+				
+			
+				
+				
+             ],
+		
+		"name": "dim_type_client"
+	
+		
+		}
+	
+			]
+		
+			}

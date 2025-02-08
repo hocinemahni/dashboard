@@ -1,0 +1,221 @@
+http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates=gains_total&drilldown=dim_temps&drilldown=dim_departement&drilldown=dim_clients@dclient:Nom
+{
+    "summary": {
+        "gains_total": 41991166
+    },
+    "remainder": {},
+    "cells": [
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2018,
+            "dim_clients.Nom": "beloumi",
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "gains_total": 654245
+        },
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2018,
+            "dim_clients.Nom": "benzaoui",
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "gains_total": 769700
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2018,
+            "dim_clients.Nom": "chabni",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "gains_total": 1531334
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2018,
+            "dim_clients.Nom": "selami",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "gains_total": 758909
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2018,
+            "dim_clients.Nom": "benherzi",
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "gains_total": 657500
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2018,
+            "dim_clients.Nom": "naamani",
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "gains_total": 7650004
+        },
+        {
+            "dim_departement.id_departement": 4,
+            "dim_temps.annees": 2018,
+            "dim_clients.Nom": "hamdou",
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "gains_total": 125000
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2018,
+            "dim_clients.Nom": "mounsaf",
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "gains_total": 76549
+        },
+        {
+            "dim_departement.id_departement": 7,
+            "dim_temps.annees": 2018,
+            "dim_clients.Nom": "benherzi",
+            "dim_departement.Nom": "NORMES ET PROCEDURES DE SECURITE INFORMATIQUE",
+            "gains_total": 7600000
+        },
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2019,
+            "dim_clients.Nom": "didaoui",
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "gains_total": 88712
+        },
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2019,
+            "dim_clients.Nom": "naamani",
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "gains_total": 812956
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2019,
+            "dim_clients.Nom": "chabni",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "gains_total": 1600875
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2019,
+            "dim_clients.Nom": "selami",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "gains_total": 56643
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2019,
+            "dim_clients.Nom": "benzaoui",
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "gains_total": 330846
+        },
+        {
+            "dim_departement.id_departement": 4,
+            "dim_temps.annees": 2019,
+            "dim_clients.Nom": "haider",
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "gains_total": 909000
+        },
+        {
+            "dim_departement.id_departement": 5,
+            "dim_temps.annees": 2019,
+            "dim_clients.Nom": "Hamdane",
+            "dim_departement.Nom": "ADMINISTRATION RESEAUX INFORMATIQUES",
+            "gains_total": 2117000
+        },
+        {
+            "dim_departement.id_departement": 5,
+            "dim_temps.annees": 2019,
+            "dim_clients.Nom": "hamdou",
+            "dim_departement.Nom": "ADMINISTRATION RESEAUX INFORMATIQUES",
+            "gains_total": 290384
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2019,
+            "dim_clients.Nom": "amoukrane",
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "gains_total": 974657
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2019,
+            "dim_clients.Nom": "haider",
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "gains_total": 2570324
+        },
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2020,
+            "dim_clients.Nom": "moulay",
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "gains_total": 2435120
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2020,
+            "dim_clients.Nom": "beloumi",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "gains_total": 543770
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2020,
+            "dim_clients.Nom": "moulay",
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "gains_total": 40846
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2020,
+            "dim_clients.Nom": "mounsaf",
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "gains_total": 1371886
+        },
+        {
+            "dim_departement.id_departement": 4,
+            "dim_temps.annees": 2020,
+            "dim_clients.Nom": "amoukrane",
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "gains_total": 655000
+        },
+        {
+            "dim_departement.id_departement": 5,
+            "dim_temps.annees": 2020,
+            "dim_clients.Nom": "Hamdane",
+            "dim_departement.Nom": "ADMINISTRATION RESEAUX INFORMATIQUES",
+            "gains_total": 319906
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2020,
+            "dim_clients.Nom": "benzaoui",
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "gains_total": 750000
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2020,
+            "dim_clients.Nom": "hamdou",
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "gains_total": 5650000
+        },
+        {
+            "dim_departement.id_departement": 7,
+            "dim_temps.annees": 2020,
+            "dim_clients.Nom": "selami",
+            "dim_departement.Nom": "NORMES ET PROCEDURES DE SECURITE INFORMATIQUE",
+            "gains_total": 650000
+        }
+    ],
+    "total_cell_count": 28,
+    "aggregates": [
+        "gains_total"
+    ],
+    "cell": [],
+    "levels": {
+        "dim_temps": [
+            "annees"
+        ],
+        "dim_departement": [
+            "dim_departement"
+        ],
+        "dim_clients": [
+            "Nom"
+        ]
+    }
+}

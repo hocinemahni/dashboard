@@ -1,0 +1,71 @@
+version: "2"
+services:
+    slicer1:
+      container_name: slicer1-container
+      build:
+        context: ./dash_1demande_service # TODO: remplacer le chemin
+      ports:
+          - "5001:5001"
+               
+    slicer2:
+      container_name: slicer2-container
+      build:
+         context: ./dash2_demande_infra # TODO: remplacer le chemin
+      ports:
+          - "5002:5002"
+      
+    slicer3:
+      container_name: slicer3-container
+      build:
+         context: ./dash3_creationvms # TODO: remplacer le chemin
+      ports:
+           - "5003:5003"
+         
+    dashboard:
+      container_name: dashboardappp
+      build:
+          context: ./flaskdashnew/production
+      ports:
+          - "5004:5004"
+      volumes:
+        - "./flaskdashnew/production/db.sqlite:/app/db.sqlite"
+    
+    postgres:
+      container_name: postgres_container
+      environment:
+         - POSTGRES_USER=postgres
+         - POSTGRES_PASSWORD=Azert12345
+         - POSTGRES_DB=cube_demandeservice
+         - POSTGRES_PORT=5432
+         
+      image: postgres:latest     
+      ports:
+           - "5532:5432"
+      volumes:
+           - "./postgres-data/server1:/var/lib/postgresql/data"    
+           
+    postgres1:
+      image: postgres:latest
+      container_name: postgres11_container
+      environment:
+         - POSTGRES_USER=postgres
+         - POSTGRES_PASSWORD=Azert12345
+         - POSTGRES_DB=cube_demandeinfra
+         - POSTGRES_PORT=5432
+      ports:
+           - "5533:5432" 
+      volumes:
+           - "./postgres-data/server2:/var/lib/postgresql/data"
+    
+    postgres2:
+      image: postgres:latest
+      container_name: postgres22_container
+      environment:
+          - POSTGRES_USER=postgres
+          - POSTGRES_PASSWORD=Azert12345
+          - POSTGRES_DB=cube_creationvms    
+          - POSTGRES_PORT=5432
+      ports:
+         - "5534:5432"
+      volumes:
+         - "./postgres-data/server3:/var/lib/postgresql/data"         

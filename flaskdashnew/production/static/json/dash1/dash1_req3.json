@@ -1,0 +1,240 @@
+{
+    "summary": {
+        "nombre_clients": 36
+    },
+    "remainder": {},
+    "cells": [
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 4,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de paiment ",
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "nombre_clients": 2
+        },
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 5,
+            "dim_domaine_informatique.Non_service_informatique": "finance ",
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 5,
+            "dim_domaine_informatique.Non_service_informatique": "finance ",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "nombre_clients": 2
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 4,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de paiment ",
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 13,
+            "dim_domaine_informatique.Non_service_informatique": "maintenance SI",
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 4,
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 1,
+            "dim_domaine_informatique.Non_service_informatique": "gestion RH",
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 7,
+            "dim_domaine_informatique.Non_service_informatique": "gestion des mandats",
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 7,
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 12,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de securite",
+            "dim_departement.Nom": "NORMES ET PROCEDURES DE SECURITE INFORMATIQUE",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 1,
+            "dim_domaine_informatique.Non_service_informatique": "gestion RH",
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 5,
+            "dim_domaine_informatique.Non_service_informatique": "finance ",
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "nombre_clients": 2
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 7,
+            "dim_domaine_informatique.Non_service_informatique": "gestion des mandats",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "nombre_clients": 2
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 10,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de restauration",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 11,
+            "dim_domaine_informatique.Non_service_informatique": "comptabilite",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 3,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de medecine ",
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 4,
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 7,
+            "dim_domaine_informatique.Non_service_informatique": "gestion des mandats",
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "nombre_clients": 2
+        },
+        {
+            "dim_departement.id_departement": 5,
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 3,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de medecine ",
+            "dim_departement.Nom": "ADMINISTRATION RESEAUX INFORMATIQUES",
+            "nombre_clients": 2
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 4,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de paiment ",
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "nombre_clients": 2
+        },
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 1,
+            "dim_domaine_informatique.Non_service_informatique": "gestion RH",
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "nombre_clients": 2
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 5,
+            "dim_domaine_informatique.Non_service_informatique": "finance ",
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "nombre_clients": 2
+        },
+        {
+            "dim_departement.id_departement": 4,
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 11,
+            "dim_domaine_informatique.Non_service_informatique": "comptabilite",
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 5,
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 3,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de medecine ",
+            "dim_departement.Nom": "ADMINISTRATION RESEAUX INFORMATIQUES",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 14,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de contr\u00f4le",
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "nombre_clients": 1
+        },
+        {
+            "dim_departement.id_departement": 7,
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "dim_departement.Nom": "NORMES ET PROCEDURES DE SECURITE INFORMATIQUE",
+            "nombre_clients": 1
+        }
+    ],
+    "total_cell_count": 27,
+    "aggregates": [
+        "nombre_clients"
+    ],
+    "cell": [],
+    "levels": {
+        "dim_temps": [
+            "annees"
+        ],
+        "dim_departement": [
+            "dim_departement"
+        ],
+        "dim_domaine_informatique": [
+            "dim_domaine_informatique"
+        ]
+    }
+}

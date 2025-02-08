@@ -1,0 +1,135 @@
+{
+    "summary": {
+        "gains_total": 41991166
+    },
+    "remainder": {},
+    "cells": [
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2018,
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "gains_total": 1423945
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2018,
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "gains_total": 2290243
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2018,
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "gains_total": 8307504
+        },
+        {
+            "dim_departement.id_departement": 4,
+            "dim_temps.annees": 2018,
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "gains_total": 125000
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2018,
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "gains_total": 76549
+        },
+        {
+            "dim_departement.id_departement": 7,
+            "dim_temps.annees": 2018,
+            "dim_departement.Nom": "NORMES ET PROCEDURES DE SECURITE INFORMATIQUE",
+            "gains_total": 7600000
+        },
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2019,
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "gains_total": 901668
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2019,
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "gains_total": 1657518
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2019,
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "gains_total": 330846
+        },
+        {
+            "dim_departement.id_departement": 4,
+            "dim_temps.annees": 2019,
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "gains_total": 909000
+        },
+        {
+            "dim_departement.id_departement": 5,
+            "dim_temps.annees": 2019,
+            "dim_departement.Nom": "ADMINISTRATION RESEAUX INFORMATIQUES",
+            "gains_total": 2407384
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2019,
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "gains_total": 3544981
+        },
+        {
+            "dim_departement.id_departement": 1,
+            "dim_temps.annees": 2020,
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "gains_total": 2435120
+        },
+        {
+            "dim_departement.id_departement": 2,
+            "dim_temps.annees": 2020,
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "gains_total": 543770
+        },
+        {
+            "dim_departement.id_departement": 3,
+            "dim_temps.annees": 2020,
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "gains_total": 1412732
+        },
+        {
+            "dim_departement.id_departement": 4,
+            "dim_temps.annees": 2020,
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "gains_total": 655000
+        },
+        {
+            "dim_departement.id_departement": 5,
+            "dim_temps.annees": 2020,
+            "dim_departement.Nom": "ADMINISTRATION RESEAUX INFORMATIQUES",
+            "gains_total": 319906
+        },
+        {
+            "dim_departement.id_departement": 6,
+            "dim_temps.annees": 2020,
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "gains_total": 6400000
+        },
+        {
+            "dim_departement.id_departement": 7,
+            "dim_temps.annees": 2020,
+            "dim_departement.Nom": "NORMES ET PROCEDURES DE SECURITE INFORMATIQUE",
+            "gains_total": 650000
+        }
+    ],
+    "total_cell_count": 19,
+    "aggregates": [
+        "gains_total"
+    ],
+    "cell": [],
+    "levels": {
+        "dim_temps": [
+            "annees"
+        ],
+        "dim_departement": [
+            "dim_departement"
+        ]
+    }
+}

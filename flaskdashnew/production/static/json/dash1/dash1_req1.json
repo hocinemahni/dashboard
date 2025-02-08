@@ -1,0 +1,135 @@
+{
+    "summary": {
+        "nombre_clients": 40
+    },
+    "remainder": {},
+    "cells": [
+        {
+            "dim_temps.annees": 2018,
+            "dim_departement.id_departement": 1,
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "nombre_clients": 3
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_departement.id_departement": 2,
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "nombre_clients": 3
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_departement.id_departement": 3,
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "nombre_clients": 3
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_departement.id_departement": 4,
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_departement.id_departement": 6,
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_departement.id_departement": 7,
+            "dim_departement.Nom": "NORMES ET PROCEDURES DE SECURITE INFORMATIQUE",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_departement.id_departement": 1,
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "nombre_clients": 3
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_departement.id_departement": 2,
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "nombre_clients": 5
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_departement.id_departement": 3,
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_departement.id_departement": 4,
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "nombre_clients": 2
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_departement.id_departement": 5,
+            "dim_departement.Nom": "ADMINISTRATION RESEAUX INFORMATIQUES",
+            "nombre_clients": 3
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_departement.id_departement": 6,
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "nombre_clients": 3
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_departement.id_departement": 1,
+            "dim_departement.Nom": "DEVELOPPEMENT RH",
+            "nombre_clients": 2
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_departement.id_departement": 2,
+            "dim_departement.Nom": "FINANCES / COMPTABILITE",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_departement.id_departement": 3,
+            "dim_departement.Nom": "Int\u00e9gration et maintenance des syst\u00e8me d'information",
+            "nombre_clients": 3
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_departement.id_departement": 4,
+            "dim_departement.Nom": "ADMINISTRATION MARCHES",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_departement.id_departement": 5,
+            "dim_departement.Nom": "ADMINISTRATION RESEAUX INFORMATIQUES",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_departement.id_departement": 6,
+            "dim_departement.Nom": "BUDJET ET CONTROLE DE GESTION",
+            "nombre_clients": 2
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_departement.id_departement": 7,
+            "dim_departement.Nom": "NORMES ET PROCEDURES DE SECURITE INFORMATIQUE",
+            "nombre_clients": 1
+        }
+    ],
+    "total_cell_count": 19,
+    "aggregates": [
+        "nombre_clients"
+    ],
+    "cell": [],
+    "levels": {
+        "dim_temps": [
+            "annees"
+        ],
+        "dim_departement": [
+            "dim_departement"
+        ]
+    }
+}

@@ -1,0 +1,148 @@
+http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates=gains_total&drilldown=dim_temps&drilldown=dim_domaine_informatique
+{
+    "summary": {
+        "gains_total": 31439608
+    },
+    "remainder": {},
+    "cells": [
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 1,
+            "dim_domaine_informatique.Non_service_informatique": "gestion RH",
+            "gains_total": 125000
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "gains_total": 758909
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 4,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de paiment ",
+            "gains_total": 1199700
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 5,
+            "dim_domaine_informatique.Non_service_informatique": "finance ",
+            "gains_total": 2185579
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 7,
+            "dim_domaine_informatique.Non_service_informatique": "gestion des mandats",
+            "gains_total": 76549
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 12,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de securite",
+            "gains_total": 7600000
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 13,
+            "dim_domaine_informatique.Non_service_informatique": "maintenance SI",
+            "gains_total": 227500
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 1,
+            "dim_domaine_informatique.Non_service_informatique": "gestion RH",
+            "gains_total": 88712
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "gains_total": 56643
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 3,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de medecine ",
+            "gains_total": 2447846
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 4,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de paiment ",
+            "gains_total": 974657
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 5,
+            "dim_domaine_informatique.Non_service_informatique": "finance ",
+            "gains_total": 812956
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 7,
+            "dim_domaine_informatique.Non_service_informatique": "gestion des mandats",
+            "gains_total": 1709875
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 10,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de restauration",
+            "gains_total": 455000
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 11,
+            "dim_domaine_informatique.Non_service_informatique": "comptabilite",
+            "gains_total": 345000
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 1,
+            "dim_domaine_informatique.Non_service_informatique": "gestion RH",
+            "gains_total": 2435120
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "gains_total": 2771886
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 3,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de medecine ",
+            "gains_total": 319906
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 5,
+            "dim_domaine_informatique.Non_service_informatique": "finance ",
+            "gains_total": 543770
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 11,
+            "dim_domaine_informatique.Non_service_informatique": "comptabilite",
+            "gains_total": 655000
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 14,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de contr\u00f4le",
+            "gains_total": 5650000
+        }
+    ],
+    "total_cell_count": 21,
+    "aggregates": [
+        "gains_total"
+    ],
+    "cell": [],
+    "levels": {
+        "dim_temps": [
+            "annees"
+        ],
+        "dim_domaine_informatique": [
+            "dim_domaine_informatique"
+        ]
+    }
+}

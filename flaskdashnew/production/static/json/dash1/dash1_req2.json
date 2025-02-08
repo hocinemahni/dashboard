@@ -1,0 +1,147 @@
+{
+    "summary": {
+        "nombre_clients": 36
+    },
+    "remainder": {},
+    "cells": [
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 1,
+            "dim_domaine_informatique.Non_service_informatique": "gestion RH",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 4,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de paiment ",
+            "nombre_clients": 3
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 5,
+            "dim_domaine_informatique.Non_service_informatique": "finance ",
+            "nombre_clients": 3
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 7,
+            "dim_domaine_informatique.Non_service_informatique": "gestion des mandats",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 12,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de securite",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2018,
+            "dim_domaine_informatique.id_domaine_applicaion": 13,
+            "dim_domaine_informatique.Non_service_informatique": "maintenance SI",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 1,
+            "dim_domaine_informatique.Non_service_informatique": "gestion RH",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 3,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de medecine ",
+            "nombre_clients": 3
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 4,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de paiment ",
+            "nombre_clients": 2
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 5,
+            "dim_domaine_informatique.Non_service_informatique": "finance ",
+            "nombre_clients": 2
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 7,
+            "dim_domaine_informatique.Non_service_informatique": "gestion des mandats",
+            "nombre_clients": 4
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 10,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de restauration",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2019,
+            "dim_domaine_informatique.id_domaine_applicaion": 11,
+            "dim_domaine_informatique.Non_service_informatique": "comptabilite",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 1,
+            "dim_domaine_informatique.Non_service_informatique": "gestion RH",
+            "nombre_clients": 2
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 2,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de transport",
+            "nombre_clients": 4
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 3,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de medecine ",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 5,
+            "dim_domaine_informatique.Non_service_informatique": "finance ",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 11,
+            "dim_domaine_informatique.Non_service_informatique": "comptabilite",
+            "nombre_clients": 1
+        },
+        {
+            "dim_temps.annees": 2020,
+            "dim_domaine_informatique.id_domaine_applicaion": 14,
+            "dim_domaine_informatique.Non_service_informatique": "gestion de contr\u00f4le",
+            "nombre_clients": 1
+        }
+    ],
+    "total_cell_count": 21,
+    "aggregates": [
+        "nombre_clients"
+    ],
+    "cell": [],
+    "levels": {
+        "dim_temps": [
+            "annees"
+        ],
+        "dim_domaine_informatique": [
+            "dim_domaine_informatique"
+        ]
+    }
+}

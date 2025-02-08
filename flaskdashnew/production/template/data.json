@@ -1,0 +1,35 @@
+{
+    "summary": {
+        "nombre_clients": 40,
+        "gains_total": 41991166
+    },
+    "remainder": {},
+    "cells": [
+        {
+            "dim_temps.annees": 2018,
+            "nombre_clients": 12,
+            "gains_total": 19823241
+        },
+        {
+            "dim_temps.annees": 2019,
+            "nombre_clients": 17,
+            "gains_total": 9751397
+        },
+        {
+            "dim_temps.annees": 2020,
+            "nombre_clients": 11,
+            "gains_total": 12416528
+        }
+    ],
+    "total_cell_count": 3,
+    "aggregates": [
+        "nombre_clients",
+        "gains_total"
+    ],
+    "cell": [],
+    "levels": {
+        "dim_temps": [
+            "annees"
+        ]
+    }
+}

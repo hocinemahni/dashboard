@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Chart JS Graph Examples | Gentelella Alela! by Colorlib</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+
+    <script>
+
+    </script>
+
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Dashbord!</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+              </div>
+              <div class="profile_info">
+                <span>Welcome,</span>
+                <h2></h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="index.html">Dashboard1</a></li>
+                      <li><a href="dash2.html">Dashboard2</a></li>
+                      <li><a href="#">Dashboard3</a></li>
+                    </ul>
+                  </li>
+                  <!--
+                  <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="chartjs.html">Chart JS</a></li>
+                      <li><a href="chartjs2.html">Chart JS2</a></li>
+                      <li><a href="morisjs.html">Moris JS</a></li>
+                      <li><a href="echarts.html">ECharts</a></li>
+                      <li><a href="other_charts.html">Other Charts</a></li>
+                    </ul>
+                  </li>-->
+                </ul>
+              </div>
+            </div>
+            <!-- sidebar menu -->
+
+
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+            <div class="nav_menu">
+                <div class="nav toggle">
+                  <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                </div>
+                <nav class="nav navbar-nav">
+                <ul class=" navbar-right">
+
+  
+
+                </ul>
+              </nav>
+            </div>
+          </div>
+        <!-- top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="page-title">
+              <div class="title_left">
+                <h3>Dashboard ELIT</h3>
+              </div>
+
+              <div class="title_right">
+
+              </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <!-- bar chart -->
+              
+              <div class="col-md-7 col-sm-7">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Bar Charts <small>dash1_req1</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Settings 1</a>
+                            <a class="dropdown-item" href="#">Settings 2</a>
+                          </div>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <div class="row">
+                      <div class="col-md-6">
+                        Choisir ume mesure
+                      </div>
+                      <div class="col-md-6">
+                        Choisir une Dimension
+                      </div>
+                    </div>
+                    <br>
+                    <div class="form-group row">
+                      <div class="col-md-6 col-sm-6">
+												<select class="select1 form-control" tabindex="-1">
+													<option value="nbr_demande">Nbr_demande</option>
+                          <option value="gains">Gains</option>
+												</select>
+											</div>
+											<div class="col-md-6 col-sm-6">
+												<select class="select2 form-control" tabindex="-1">
+                          <option value="dim_departement">Departement</option>
+													<option value="dim_temps.annees">Temps</option>
+                          <option value="dim_projet">Projet</option>
+													<option value="dim_clients">Clients</option>
+												</select>
+											</div>
+										</div>
+                    <div id="graph_bar" style="width:100%; height:100%;" class="mb-5"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 col-sm-5">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Pie Graph Chart req4<small>Sessions</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Settings 1</a>
+                            <a class="dropdown-item" href="#">Settings 2</a>
+                          </div>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <canvas id="pieChart" height="400">
+                      <script> //req4 off
+                        //http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates=gains&drilldown=dim_temps&drilldown=dim_departement&drilldown=dim_projet
+                          var xhttp = new XMLHttpRequest();
+                          xhttp.open("GET","http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates=gains&drilldown=dim_temps&drilldown=dim_departement&drilldown=dim_projet" , false);
+                          xhttp.send();
+                          
+                          var summary = JSON.parse(xhttp.responseText);
+                          var annees = summary.cells.map(function(e) {
+                          return e["dim_temps.annees"];
+                        });
+                    
+                        var departement = summary.cells.map(function(e) {
+                          return e["dim_departement.Nom"];
+                        });
+                        var labels=[];
+                    
+                        for (var i = 0; i < annees.length; i++) {
+                          l=departement[i]+" "+annees[i];
+                          labels.push(l);
+                    
+                        }
+                        var departementD=[];
+                        for (var i = 0; i < departement.length; i++) {
+                          if(departementD.indexOf(departement[i]) === -1) 
+                          departementD.push(departement[i])
+                        }
+                        //alert(departementD);
+                       /* console.log(labels);*/
+                        test=summary.cells;
+                        var datas = summary.cells.map(function(e) {
+                          return e.gains;
+                        });
+                        datag="["
+                        g=0;
+                        for(var k=0; k < summary.cells.length; k++){
+                          if((summary.cells[k]["dim_departement.Nom"]== departementD[0])){
+                            //alert(0);
+                            g=g+summary.cells[k]["gains"];
+                          }
+                        }
+                        datag=datag+g;
+                        for (var i = 1; i < departementD.length; i++) {
+                          g=0;
+                          for(var k=0; k < summary.cells.length; k++){
+                            if(summary.cells[k]["dim_departement.Nom"]== departementD[i]){
+                              //alert(i);
+                              g=g+summary.cells[k]["gains"];
+                            }
+                          }
+                          datag=datag+","+g;
+                        }
+                        datag=datag+"]";
+                        console.log(datag);
+                        var datag = JSON.parse(datag);
+                        //alert(datag);
+                        console.log(datag);
+                    
+                    
+                          //if($("#pieChart").length)e=document.getElementById("pieChart"),a={datasets:[{data:datag,backgroundColor:["#455C73","#9B59B6","#BDC3C7","#26B99A","#3498DB","Green","Blue"],label:"My dataset",}],labels:departementD,},new Chart(e,{data:a,type:"pie",otpions:{legend:!0},});
+                           data = {
+  labels:departementD,
+  datasets: [{
+    label: 'My First Dataset',
+    data: datag,
+    backgroundColor: ["#455C73","#9B59B6","#BDC3C7","#26B99A","#3498DB","Green","Blue"],
+    hoverOffset: 4
+  }]
+};
+// </block:setup>
+
+// <block:config:0>
+ config = {
+  type: 'pie',
+  data: data,
+};
+// </block:config>
+
+
+
+var pieChart = new Chart(
+            document.getElementById('pieChart'),
+            config
+        );
+                        </script>
+                    </canvas>
+                  </div>
+                </div>
+              </div>
+
+              <!-- /bar charts -->
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <!-- bar chart -->
+              <div class="col-md-2 col-sm-2"></div>
+              <div class="col-md-8 col-sm-8">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Bar Charts dash1_req2<small>dash1_req2</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Settings 1</a>
+                            <a class="dropdown-item" href="#">Settings 2</a>
+                          </div>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <canvas id="myChart" style="width:100%; height:300px;" class="mb-5">
+                      <script>//req2
+                        //http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates=gains&drilldown=dim_temps&drilldown=dim_projet
+                        var xhttp = new XMLHttpRequest();
+                        xhttp.open("GET","http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates=gains&drilldown=dim_temps&drilldown=dim_projet" , false);
+                        xhttp.send();
+                        var summary = JSON.parse(xhttp.responseText);
+       
+                        var annees = summary.cells.map(function(e) {
+                          return e["dim_temps.annees"];
+                        });
+
+                        var departement = summary.cells.map(function(e) {
+                          return e["dim_projet.Non_projet"];
+                        });
+                        var lb=[];
+                        var anneesD=[];
+                        color=["Green","Blue","Red","Yellow","Black","Brown","Azure","Ivory","Teal","Silver","Purple","Gray","Orange","Maroon","Charcoal","Aquamarine","Coral","Fuchsia","Wheat","Lime","Crimson","Khaki","Magenta","Olden","Plum","Olive","Cyan"];
+                        for (var i = 0; i < annees.length; i++) {
+                          if(anneesD.indexOf(annees[i]) === -1) 
+                          anneesD.push(annees[i])
+                        }
+                        //alert(anneesD);
+                        //alert(departement.length);
+                        jsn="[";
+                        for (var i = 0; i < anneesD.length; i++) {
+                          jsn=jsn+"{\"label\":\""+anneesD[i]+"\",\"data\":[";
+                          b=0;
+                          for(var k=0; k < summary.cells.length; k++){
+                              if((summary.cells[k]["dim_projet.Non_projet"]== departement[0]) && (summary.cells[k]["dim_temps.annees"]==anneesD[i])){
+                                  jsn=jsn+summary.cells[k]["gains"];
+                                  b=1;
+                              }
+                          }
+                          if(b==0)
+                          jsn=jsn+0;
+
+                          for (var j = 1; j < departement.length; j++) {
+                            b=0;
+                            for(var k=0; k < summary.cells.length; k++){
+                              if((summary.cells[k]["dim_projet.Non_projet"]== departement[j]) && (summary.cells[k]["dim_temps.annees"]==anneesD[i])){
+                                  jsn=jsn+","+summary.cells[k]["gains"];
+                                  b=1;
+                              }
+                            }
+                            if(b==0)
+                              jsn=jsn+","+0;
+                          }
+                          if(i == anneesD.length-1){
+                            jsn=jsn+"],\"backgroundColor\":\""+color[i]+"\"}]";
+
+                          }else {
+                            jsn=jsn+"],\"backgroundColor\":\""+color[i]+"\"},";
+                          }
+
+                        }
+                        //alert(summary.cells[1]["gains"]);
+                        //console.log(jsn);
+                        //alert(jsn);
+
+                        var jsn = JSON.parse(jsn);
+                        //console.log(jsn);
+
+                        //console.log(lb);
+                        var datas = summary.cells.map(function(e) {
+                          return e.gains;
+                        });
+
+                       /* alert("lb="+lb);
+                        alert("datas"+datas);*/
+
+
+
+                                              // <block:actions:2>
+
+                        /*const actions = [
+                        {
+                          name: 'Randomize',
+                          handler(chart) {
+                            chart.data.datasets.forEach(dataset => {
+                              dataset.data = Utils.numbers({count: chart.data.labelss.length, min: -100, max: 100});
+                            });
+                            chart.update();
+                          }
+                        },
+                      ];*/
+                      // </block:actions>
+
+                      // <block:setup:1>
+                      /*const DATA_COUNT = 7;
+                      const NUMBER_CFG = {count: DATA_COUNT, min: -100, max: 100};*/
+
+                      //const labels = labelss/*Utils.months({count: 7})*/;
+                      var data = {
+                        labels: departement,
+                        datasets: jsn
+                      };
+                      // </block:setup>
+
+                      // <block:config:0>
+                      var config = {
+                        type: 'bar',
+                        data: data,
+                        options: {
+                          plugins: {
+                            title: {
+                              display: true,
+                              text: 'Chart.js Bar Chart - Stacked'
+                            },
+                          },
+                          responsive: true,
+                          scales: {
+                            x: {
+                              stacked: true,
+                            },
+                            y: {
+                              stacked: true
+                            }
+                          }
+                        }
+                      };
+                      // </block:config>
+
+                                            // === include 'setup' then 'config' above ===
+                              var myChart = new Chart(
+                                  document.getElementById('myChart'),
+                                  config
+                              );
+                        
+                      </script>
+                    </canvas>
+                  </div>
+                </div>
+              </div>
+              <!-- /bar charts -->
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="row">
+              <!-- bar chart -->
+              <div class="col-md-12 col-sm-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>Bar Charts dash1_reqt3<small>dash1_reqt3</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Settings 1</a>
+                            <a class="dropdown-item" href="#">Settings 2</a>
+                          </div>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <canvas id="myChart1" style="width:100%; height:300px;" class="mb-5">
+                      <script>//req3
+                        //http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates=gains&drilldown=dim_temps&drilldown=dim_departement
+                        var xhttp = new XMLHttpRequest();
+                        xhttp.open("GET","http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates=gains&drilldown=dim_temps&drilldown=dim_departement" , false);
+                        xhttp.send();
+                        var summary = JSON.parse(xhttp.responseText);
+       
+                        var annees = summary.cells.map(function(e) {
+                          return e["dim_temps.annees"];
+                        });
+
+                        var departement = summary.cells.map(function(e) {
+                          return e["dim_departement.Nom"];
+                        });
+                        var lb=[];
+                        var anneesD=[];
+                        color=["Green","Blue","Red","Yellow","Black","Brown","Azure","Ivory","Teal","Silver","Purple","Gray","Orange","Maroon","Charcoal","Aquamarine","Coral","Fuchsia","Wheat","Lime","Crimson","Khaki","Magenta","Olden","Plum","Olive","Cyan"];
+                        for (var i = 0; i < annees.length; i++) {
+                          if(anneesD.indexOf(annees[i]) === -1) 
+                          anneesD.push(annees[i])
+                        }
+                        //alert(anneesD);
+                        //alert(departement.length);
+                        jsn="[";
+                        for (var i = 0; i < anneesD.length; i++) {
+                          jsn=jsn+"{\"label\":\""+anneesD[i]+"\",\"data\":[";
+                          b=0;
+                          for(var k=0; k < summary.cells.length; k++){
+                              if((summary.cells[k]["dim_departement.Nom"]== departement[0]) && (summary.cells[k]["dim_temps.annees"]==anneesD[i])){
+                                  jsn=jsn+summary.cells[k]["gains"];
+                                  b=1;
+                              }
+                          }
+                          if(b==0)
+                          jsn=jsn+0;
+
+                          for (var j = 1; j < departement.length; j++) {
+                            b=0;
+                            for(var k=0; k < summary.cells.length; k++){
+                              if((summary.cells[k]["dim_departement.Nom"]== departement[j]) && (summary.cells[k]["dim_temps.annees"]==anneesD[i])){
+                                  jsn=jsn+","+summary.cells[k]["gains"];
+                                  b=1;
+                              }
+                            }
+                            if(b==0)
+                              jsn=jsn+","+0;
+                          }
+                          if(i == anneesD.length-1){
+                            jsn=jsn+"],\"backgroundColor\":\""+color[i]+"\"}]";
+
+                          }else {
+                            jsn=jsn+"],\"backgroundColor\":\""+color[i]+"\"},";
+                          }
+
+                        }
+                        //alert(summary.cells[1]["gains"]);
+                       // alert(jsn); jsn
+
+                        //console.log(jsn);jsn
+                        //alert(jsn); jsn
+
+                        var jsn = JSON.parse(jsn);
+                        //console.log(jsn); jsn
+
+                        //console.log(lb); lb
+                        var datas = summary.cells.map(function(e) {
+                          return e.gains;
+                        });
+
+                       /* alert("lb="+lb);
+                        alert("datas"+datas);*/
+
+
+
+                                              // <block:actions:2>
+
+                        /*const actions = [
+                        {
+                          name: 'Randomize',
+                          handler(chart) {
+                            chart.data.datasets.forEach(dataset => {
+                              dataset.data = Utils.numbers({count: chart.data.labelss.length, min: -100, max: 100});
+                            });
+                            chart.update();
+                          }
+                        },
+                      ];*/
+                      // </block:actions>
+
+                      // <block:setup:1>
+                      /*const DATA_COUNT = 7;
+                      const NUMBER_CFG = {count: DATA_COUNT, min: -100, max: 100};*/
+
+                      //const labels = labelss/*Utils.months({count: 7})*/;
+                      var data = {
+                        labels: departement,
+                        datasets: jsn
+                      };
+                      // </block:setup>
+
+                      // <block:config:0>
+                      var config = {
+                        type: 'bar',
+                        data: data,
+                        options: {
+                          plugins: {
+                            title: {
+                              display: true,
+                              text: 'Chart.js Bar Chart - Stacked'
+                            },
+                          },
+                          responsive: true,
+                          scales: {
+                            x: {
+                              stacked: true,
+                            },
+                            y: {
+                              stacked: true
+                            }
+                          }
+                        }
+                      };
+                      // </block:config>
+
+                                            // === include 'setup' then 'config' above ===
+                              var myChart1 = new Chart(
+                                  document.getElementById('myChart1'),
+                                  config
+                              );
+                        
+                      </script>
+                    </canvas>
+                  </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+
+              <!-- /bar charts -->
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+        <!-- page content -->
+
+      </div>
+    </div>
+
+    <!-- Bootstrap -->
+   <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- morris.js -->
+    <script src="../vendors/raphael/raphael.min.js"></script>
+    <script src="../vendors/morris.js/morris.min.js"></script>
+    <!-- ECharts -->
+    <script src="../vendors/echarts/dist/echarts.min.js"></script>
+    <script src="../vendors/echarts/map/js/world.js"></script>
+
+    <!-- Custom Theme Scripts to change informations-->
+    <script src="../build/js/custom.min.js"></script>
+
+    <script>//req1
+      var selectdimG1="dim_departement";
+      var selectMesurG1="nbr_demande";
+
+      function bar1() {
+        req1="http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates="+selectMesurG1+"&drilldown="+selectdimG1;
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET",req1 , false);
+        xhttp.send();
+        var summary = JSON.parse(xhttp.responseText);
+
+        var departement = summary.cells.map(function(e) {
+        if(selectdimG1=="dim_departement")
+        return e[selectdimG1+".Nom"];
+        if(selectdimG1=="dim_temps.annees")
+        return e[selectdimG1];
+        if(selectdimG1=="dim_projet")
+        return e[selectdimG1+".Non_projet"];
+      });
+
+
+      test=summary.cells;
+      var datas = summary.cells.map(function(e) {
+        return e[selectMesurG1];
+      });
+      js="";
+      js="[{\"device\":\""+departement[0]+"\",\"geekbench\":"+datas[0]+"}";
+      for (var i = 1; i < departement.length; i++) {
+        js=js+",{\"device\":\""+departement[i]+"\",\"geekbench\":"+datas[i]+"}";
+      }
+      js=js+"]";
+      var obj = JSON.parse(js);
+      //console.log(obj); obj
+      //if($("#lineChart").length){var e=document.getElementById("lineChart");new Chart(e,{type:"bar",data:{labels:labelsj,datasets:[{label:"My First dataset",backgroundColor:"rgba(38, 185, 154, 0.31)",borderColor:"rgba(38, 185, 154, 0.7)",pointBorderColor:"rgba(38, 185, 154, 0.7)",pointBackgroundColor:"rgba(38, 185, 154, 0.7)",pointHoverBackgroundColor:"#fff",pointHoverBorderColor:"rgba(220,220,220,1)",pointBorderWidth:1,data:datasj}]}})}
+
+      $("#graph_bar").length&&Morris.Bar({element:"graph_bar",data:obj,xkey:"device",ykeys:["geekbench"],labels:[selectMesurG1],barRatio:.4,barColors:["#26B99A","#34495E","#ACADAC","#3498DB"],xLabelAngle:90,hideHover:"auto",resize:!0});
+    }
+    bar1();
+      $(document).ready(function(){
+        $("select.select2").change(function(){
+          selectdimG1 = $(this).children("option:selected").val();
+         // alert("You have selected the country - " + selectdimG1);
+          $("#graph_bar").html("");
+          bar1();
+        });
+        $("select.select1").change(function(){
+          selectMesurG1 = $(this).children("option:selected").val();
+         // alert("You have selected mesur - " + selectMesurG1);
+          $("#graph_bar").html("");
+          bar1();
+        });
+      });
+    </script>
+    <script> //req4 off
+    //http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates=gains&drilldown=dim_temps&drilldown=dim_departement&drilldown=dim_projet
+      var xhttp = new XMLHttpRequest();
+      xhttp.open("GET","http://localhost:5001/cube/fact_table_service_info/aggregate?aggregates=gains&drilldown=dim_temps&drilldown=dim_departement&drilldown=dim_projet" , false);
+      xhttp.send();
+      
+      var summary = JSON.parse(xhttp.responseText);
+      var annees = summary.cells.map(function(e) {
+      return e["dim_temps.annees"];
+    });
+
+    var departement = summary.cells.map(function(e) {
+      return e["dim_departement.Nom"];
+    });
+    var labels=[];
+
+    for (var i = 0; i < annees.length; i++) {
+      l=departement[i]+" "+annees[i];
+      labels.push(l);
+
+    }
+    var departementD=[];
+    for (var i = 0; i < departement.length; i++) {
+      if(departementD.indexOf(departement[i]) === -1) 
+      departementD.push(departement[i])
+    }
+    //alert(departementD);
+   /* console.log(labels);*/
+    test=summary.cells;
+    var datas = summary.cells.map(function(e) {
+      return e.gains;
+    });
+    datag="["
+    g=0;
+    for(var k=0; k < summary.cells.length; k++){
+      if((summary.cells[k]["dim_departement.Nom"]== departementD[0])){
+        //alert(0);
+        g=g+summary.cells[k]["gains"];
+      }
+    }
+    datag=datag+g;
+    for (var i = 1; i < departementD.length; i++) {
+      g=0;
+      for(var k=0; k < summary.cells.length; k++){
+        if(summary.cells[k]["dim_departement.Nom"]== departementD[i]){
+          //alert(i);
+          g=g+summary.cells[k]["gains"];
+        }
+      }
+      datag=datag+","+g;
+    }
+    datag=datag+"]";
+    console.log(datag);
+    var datag = JSON.parse(datag);
+    //alert(datag);
+    console.log(datag);
+
+
+      //if($("#pieChart").length)e=document.getElementById("pieChart"),a={datasets:[{data:datag,backgroundColor:["#455C73","#9B59B6","#BDC3C7","#26B99A","#3498DB","Green","Blue"],label:"My dataset",}],labels:departementD,},new Chart(e,{data:a,type:"pie",otpions:{legend:!0},});
+    </script>
+  </body>
+</html>

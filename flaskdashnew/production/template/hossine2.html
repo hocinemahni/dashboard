@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+/*
+         var summary;
+   $(document).ready(function(){
+        alert("hhhh");
+        $.ajax({ 
+		        dataType: "json",
+                url: 'http://localhost:5001/cube/fact_table_service_info/aggregate?drilldown=dim_temps@dtemps:annees',
+                type: 'GET',
+
+                success: function(datt){
+                     var summary = $.parseJSON(datt); // create an object with the key of the array
+                     alert(summary.html);
+                       
+                 
+                },
+				
+                error: function(datt){
+                 var summary = $.parseJSON(datt);
+                alert(summary.error);
+    }
+                 
+  
+
+            });
+
+
+
+});
+*/
+
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+<script>
+ 
+  var xhttp = new XMLHttpRequest();
+  xhttp.open("GET","http://localhost:5001/cube/fact_table_service_info/aggregate?drilldown=dim_temps@dtemps:annees" , false);
+  xhttp.send();
+  var summary = JSON.parse(xhttp.responseText);
+  
+   
+  
+
+  
+  
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+    </head>
+    <body>
+        
+	<script>	
+	/*
+	var summ;
+	res=fetch("http://localhost:5001/cube/fact_table_service_info/aggregate?drilldown=dim_temps@dtemps:annees")
+  .then(function(res) {
+    if (res.ok) {
+	var	summ=  res.json();
+      return res.json();
+    } 
+
+  })
+  .then(function(value) {
+    console.log(value);
+	
+  })
+  .catch(function(err) {
+    // Une erreur est survenue
+  });
+  */
+
+		
+	</script>	
+		
+	
+		
+		
+    <canvas id="myChart">
+    <script> /*
+	var summary;
+ fetch('http://localhost:5001/cube/fact_table_service_info/aggregate?drilldown=dim_temps@dtemps:annees')
+		  .then(res=>res.json())
+		  .then(summary=>console.log(summary))
+
+alert (data);
+    */
+/*={
+    "summary": {
+        "nombre_clients": 40,
+        "gains_total": 41991166
+    },
+    "remainder": {},
+    "cells": [
+        {
+            "dim_temps.annees": 2018,
+            "nombre_clients": 12,
+            "gains_total": 19823241
+        },
+        {
+            "dim_temps.annees": 2019,
+            "nombre_clients": 17,
+            "gains_total": 9751397
+        },
+        {
+            "dim_temps.annees": 2020,
+            "nombre_clients": 11,
+            "gains_total": 12416528
+        }
+    ],
+    "total_cell_count": 3,
+    "aggregates": [
+        "nombre_clients",
+        "gains_total"
+    ],
+    "cell": [],
+    "levels": {
+        "dim_temps": [
+            "annees"
+        ]
+    }
+};*/
+
+/*
+var labels=summary.cells[0]["dim_temps.annees"];
+var datas=summary.cells[0]["nombre_clients"];
+alert(summary.cells.length);
+for (var i = 2; i < summary.cells.length; i++) {
+    labels=labels+","+summarycells[i];
+    datas=datas+","+summary.cells[i];
+}
+
+
+
+
+*/
+
+
+
+
+
+var labels = summary.cells.map(function(e) {
+   return e["dim_temps.annees"];
+});
+var datas = summary.cells.map(function(e) {
+   return e.nombre_clients;
+});
+
+alert(labels);
+alert(datas);
+
+
+const data = {
+  labels: labels,
+  datasets: [{
+    label: 'nombre des clients',
+    backgroundColor: 'rgb(255, 99, 132)',
+    borderColor: 'rgb(255, 99, 132)',
+    data: datas,
+  }]
+};
+const config = {
+  type: 'bar',
+  data,
+  options: {}
+};
+
+
+
+
+                      // === include 'setup' then 'config' above ===
+        var myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+        );
+   
+
+                </script>
+
+    </canvas>
+    </body>
+</html>
