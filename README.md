@@ -31,7 +31,7 @@ La solution repose sur 4 modules principaux :
 2. **Stockage – DataMart & Cubes OLAP**  
 3. **Serveur OLAP – Mondrian / Slicer**  
 4. **Client OLAP Web**
-![Architecture globale(images/solution.png)
+![Architecture globale](images/solution.png)
 ---
 
 ## 🛠️ Technologies utilisées
