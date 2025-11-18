@@ -5,6 +5,7 @@ Ce dépôt contient le code source et les ressources du Projet de Fin d’Étude
 **« Conception et réalisation d’un système d’aide à la décision pour les tâches d’administration du Datacenter au niveau d’ELIT »**
 
 Ce projet a été réalisé à **ELIT – Filiale du groupe SONELGAZ**, dans le cadre du master **Mathématiques et Informatique Décisionnelle** à l’USTHB.
+![Architecture Globale](images/architecture_bi.png)
 
 ---
 
