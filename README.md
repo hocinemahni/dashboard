@@ -58,22 +58,23 @@ La solution repose sur 4 modules principaux :
 - Dashboard interactif
 - Sélection de dimensions et mesures
 - Filtrage dynamique
-
+![cube_demande_service](images/cube_demande_service.png)
 ### ✔️ Analyses disponibles
 - Demandes de services informatiques  
 - Demandes d’infrastructures  
 - Créations de machines virtuelles  
 - Suivi des ressources allouées  
-
+![interface](images/interface1.png)
 ### ✔️ Reporting
 - Export PDF / Excel / CSV
 - Impression
 - Génération automatique des rapports
+![dashboard1](images/dashboard.png)
 
 ---
 
 ## 🐳 Déploiement avec Docker
-
+![docker](images/deployement.png)
 ### Exécution :
 ```
 docker-compose up --build -d
