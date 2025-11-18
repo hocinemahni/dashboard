@@ -91,5 +91,5 @@ docker-compose up --build -d
 
 ## 📚 Référence
 
-Mémoire complet du PFE disponible dans le dépôt :  
-`Rapport_memoire_elit_2021.pdf`
+Le mémoire complet du PFE est disponible ici :  
+👉 [**Télécharger le rapport**](./files/Rapport_memoire_elit_2021.pdf)
